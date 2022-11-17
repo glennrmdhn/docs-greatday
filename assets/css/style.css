@@ -1,0 +1,155 @@
+:root{
+    --dark-blue: #274176;
+    --orange: #ff8a15;
+    --white: #ffffff;
+    --black: #323232;
+    --border-color: #32323246;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ;
+}
+
+.body__sect{
+    height: 100vh;
+}
+
+
+/* Navbar Section */
+
+.navbar__sect{
+    height: 5vh;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--dark-blue) !important;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav{
+    margin-left: 2rem;
+}
+
+.nav-item{
+    margin: 0rem 1rem !important;
+}
+
+.nav-link{
+    color: var(--white) !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+/* Navbar Section */
+
+
+/* Side Section */
+
+.side__menu__body{
+    border-right: 1px solid var(--border-color) ;
+    overflow: scroll;
+}
+
+/* width */
+.side__menu__body::-webkit-scrollbar {
+    width: 5px;
+}
+  
+  /* Track */
+.side__menu__body::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+.side__menu__body::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+/* Handle on hover */
+,.side__menu__body::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--black) !important;
+    background-color: #fefefe !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.accordion-button{
+    color: var(--black) !important;
+    font-size: 16px !important;
+    font-weight: 600;
+    padding-left: 0rem !important;
+    padding-bottom: 1rem !important;
+    border: none !important;
+}
+
+.nav-tabs{
+    border: none !important;
+}
+
+.icon__size{
+    font-size: 22px !important;
+}
+
+.accordion-body{
+    padding: 0rem 2rem !important;
+}
+
+.sub__accordion .accordion-button{
+    font-weight: 400;
+    padding: 0.7rem 0rem !important;
+}
+
+.sub__accordion .accordion-button::after{
+    display: none !important;
+}
+
+.sub__accordion .accordion-item{
+    border: none !important;
+}
+
+.tab-pane{
+    color: var(--black) !important;
+}
+
+.search__field{
+    display: flex;
+    align-items: center;
+}
+
+.search__field .search__input{
+    padding-left: 1.5rem;
+    transition: 0.3s;
+}
+
+.search__input:focus{
+    padding-left: 0.5rem;
+    transition: 0.3s;
+}
+
+
+/* Side Section */
+
+
+/* Body Section */
+
+.content__side__body{
+
+}
+
+/* Body Section */
